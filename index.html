@@ -43,16 +43,28 @@
               <div class="col-md-3">
                 <form class="bg-dark">
                   <p>Filter Search</p>
-                  <ul class="bg-dark" class="list-group">
-                    <li class="bg-dark" class="list-group-item">
+                  <ul class="bg-dark" class="list-group" style="list-style-type:none;">
+                    <li class="bg-dark" class="list-group-item" >
                       <label for="date">Enter Date</label>
-                      <input type="text" placeholder="1/10/2010" id="datetime" />
+                      <input type="text" placeholder="Date (ex. 1/10/2010)" id="datetime" /><br/><br/>
+                      <label for="city">Enter City</label>
+                      <input type="text" placeholder="City Name (ex. fresno)" id="city" /><br/><br/>
+                      <label for="state">Enter State</label>
+                      <input type="text" placeholder="State Abb. (ex. ca)" id="state" /><br/><br/>
+                      <label for="country">Enter Country</label>
+                      <input type="text" placeholder="Country Abb. (ex. us)" id="country" /><br/><br/>
+                      <label for="shape">Enter Shape</label>
+                      <input type="text" placeholder="Shape Type (ex. triangle)" id="shape" /><br/><br/>
                     </li>
                     <li class="bg-dark" class="list-group-item">
                        <button id="filter-btn" type="button" class="btn-dark">
                          Filter Table
                        </button>
                     </li>
+                    <li class="bg-dark" class="list-group-item">
+                        <button type="button" class="btn-dark" onclick="ClearFields()">Clear Entered Data</button>
+                        </button>
+                     </li>
                   </ul>
                  </form>
               </div>
