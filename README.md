@@ -21,3 +21,5 @@ Challenge assignment was to enhance the article and web page by adding additiona
  3. Rebuild the table by calling the buildTable(); function created earlier.
  - Finally, using d3.selectAll();, attach an event listener to pick up changes that are made to each filter.
  
+### Additional
+- Added a second buttom with link to function for clearing user input fields.
